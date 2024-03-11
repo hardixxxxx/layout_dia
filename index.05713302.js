@@ -1,0 +1,2 @@
+var e=0,t=document.querySelectorAll(".slider__image"),l=document.querySelector(".slider__bt-left"),n=document.querySelector(".slider__bt-right");function r(){for(var l=0;l<t.length;l++)t[l].style.display="none";t[e].style.display="block"}l.addEventListener("click",function(){e=(e-1+t.length)%t.length,r()}),n.addEventListener("click",function(){e=(e+1)%t.length,r()}),r();
+//# sourceMappingURL=index.05713302.js.map
